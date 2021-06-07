@@ -10,7 +10,7 @@ A full-feature version of DataAnnotator is available via local installation.
 
 #### Docker
 
-Run `docker run -d -p 80:8000 juezhao/DataAnnotator` and visit <a href="http://127.0.0.1/">http://127.0.0.1/</a>.
+Run `docker run -d -p 80:8000 juezhao/Data-Annotator` and visit <a href="http://127.0.0.1/">http://127.0.0.1/</a>.
 
 #### Manual Installation
 
