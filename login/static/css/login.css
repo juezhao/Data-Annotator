@@ -1,0 +1,86 @@
+.landing-container {
+    text-align: center;
+    margin-top: 10%;
+}
+
+.tagline {
+    margin-bottom: 5%;
+}
+
+.tagline-component {
+    display: block;
+}
+
+.tagline-component-main {
+    font-weight: bold;
+    font-size: 60px;
+}
+
+.tagline-component-sub {
+    font-size: 18px;
+    text-transform: uppercase;
+}
+
+.wrapper{
+    width: 400px;
+    height: 100px;
+    color: #000;
+    top: 50%;
+    left: 50%;
+    padding: 60px 30 px;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    box-sizing: border-box;
+    box-shadow: 8px,8px,8px #000;
+}
+
+.wrapper input{
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.wrapper input[type=username], .wrapper input[type=password]{
+    border: none;
+    border-bottom: 1px solid #ddd;
+    background: transparent;
+    outline: none;
+    height: 30px;
+    font-size: 25px;
+    
+}
+
+.wrapper input [type = submit]{
+    border: none;
+    outline: none;
+    height: 40px;
+    background: #1572ff;
+    color: #fff;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.wrapper input [type = submit]:hover{
+    cursor: pointer;
+}
+
+.wrapper a{
+    font-size: 14px;
+    text-decoration: underline;
+    color: #fff;
+    opacity: 0.8;
+    
+}
+
+.wrapper a:hover{
+    color: #fff;
+    opacity: 1;
+}
+
+.bottom-text{
+    color: #fff;
+}
+
+.bottom-text input{
+    width: 10%;
+    float: left;
+}

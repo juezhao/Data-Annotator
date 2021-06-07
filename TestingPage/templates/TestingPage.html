@@ -1,0 +1,51 @@
+{% extends 'base.html' %}
+
+{% block head %}
+    {% load static %}
+    <title>DataAnnotator - Rapid Annotation, Powered by AUT RND Group</title>
+    <link href="{% static 'css/TestingPage.css' %}" rel="stylesheet" />
+    <script src="{% static 'js/TestingPage.js' %}"></script>
+{% endblock %}
+
+{% block content %}
+    {% csrf_token %}
+    <title> EXAMPLE </title>
+    <style>
+        .myDivTwo
+		{
+			background-color: royalblue;
+			text-align: center;
+			border: 4px outset whitesmoke;
+		}
+    </style>
+    <div class="landing-container unselectable">
+        <p class="tagline">
+            <span class="tagline-component tagline-component-main">
+                Entities/Attributes
+            </span>
+            
+            <span class="tagline-component tagline-component-sub">
+                Information to help create a configuration file
+            </span>
+        </p>
+        
+        <div class="myDivTwo">
+            <br>
+            <body>
+                <form>
+                    <img src="https://pediaa.com/wp-content/uploads/2019/04/Difference-Between-Entity-and-Attribute-Comparison-Summary.jpg"/> <br><br>     
+                </form>
+            </body>
+        </div>
+        <hr><br>
+        ENTITIES:<br>
+        An entity is a business object and can be either tangible (such as a person or an item) or intangible <br>
+        (such as an event or a reservation). Every entity in a database must have a different name. It is a <br>
+        common practice (but not required) to name entities in the singular. They represent a group of items<br><br><br>
+
+        ATTRIBUTES:<br>
+        Just as business objects have characteristics that describe them, entities are described by their attributes.<br>
+         When we represent an entity in a database, what we actually store are that entity’s attributes. In a nutshell,<br>
+        attributes store data values that either describe or identify entities.<br><br><hr>
+    </div>
+{% endblock %}

@@ -1,0 +1,29 @@
+{% extends 'base.html' %}
+
+{% block head %}
+    {% load static %}
+    <title>DataAnnotator - Rapid Annotation, Powered by AUT RND Group</title>
+    <link href="{% static 'css/login.css' %}" rel="stylesheet" />
+    <script src="{% static 'js/login.js' %}"></script>
+{% endblock %}
+
+{% block content %}
+    {% csrf_token %}
+    <div class="landing-container unselectable">
+        <p class="tagline">
+            <span class="tagline-component tagline-component-main">
+                Sign up
+            </span>
+        </p>
+    </div>
+    <div class="wrapper">
+        <form action="/" method="POST">
+            {% csrf_token %}
+            <input type="username" placeholder="Enter the username you want">
+            <br>
+            <input type="password" placeholder="Please enter the password">
+            <br>
+            <input type="submit" value="submit">
+        </form>
+    </div>    
+{% endblock %}
