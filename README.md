@@ -10,7 +10,9 @@ A full-feature version of DataAnnotator is available via local installation.
 
 #### Docker
 
+download Docker Desktop, open your CMD line
 Run `docker run -d -p 80:8000 juezhao/DataAnnotator` and visit <a href="http://127.0.0.1/">http://127.0.0.1/</a>.
+if that not working, try 'docker build -t juezhao/data-annotator .' then 'docker run -d -p 80:8000 juezhao/data-annotator'
 
 #### Manual Installation
 
