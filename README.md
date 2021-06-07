@@ -28,12 +28,11 @@ For futher sessions, the local server can be started directly by running `python
 
 - Ability to navigate between and annotate multiple documents in a single session.
 - Predictive annotation suggestions (incl. attributes) using underlying active learning and sequence-to-sequence models.
-- Integrated access to pre-loaded and user-defined ontologies, enabling predictive mappings and direct querying.
 - Built-in configuration file creator.
 - Built-in synthetic data generator and custom model trainer (local version only due to high computational expense).
 - Dynamic attribute display.
 - Any number of overlaying annotations, enabling the capture of complex data.
-- Full-feature tool available via local installation and website.
+- Full-feature tool available via local installation.
 - Dark mode.
 
 ## Known Bugs / Issues
